@@ -15,12 +15,12 @@ changeText = StringVar()
 
 master.title("Git Hub Page")
 master.resizable(False, False)
-master.iconbitmap("Interfaces\github.ico")
+master.iconbitmap("POO\Interfaces\github.ico")
 
 firstFrame = Frame(master, width=400, height=350)
 firstFrame.pack()
 
-firstLabel = Label(firstFrame, textvariable=changeText, font=("Comic Sans MS", 16), fg="purple" ).grid(row=1, column=2, padx=20, pady=20)
+firstLabel = Label(firstFrame, textvariable=changeText, font=("Comic Sans MS", 16), fg="black" ).grid(row=1, column=2, padx=20, pady=20)
 
 firstInput = Entry(firstFrame)
 firstInput.grid(row=3, column=2, padx=20, pady=20)
