@@ -15,7 +15,7 @@ changeText = StringVar()
 
 master.title("Git Hub Page")
 master.resizable(False, False)
-master.iconbitmap("POO\Interfaces\github.ico")
+master.iconbitmap("POO\Imagenes\github.ico")
 
 firstFrame = Frame(master, width=400, height=350)
 firstFrame.pack()
