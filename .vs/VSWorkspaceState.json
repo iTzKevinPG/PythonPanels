@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\POO",
+    "\\POO\\Imagenes",
+    "\\POO\\Interfaces",
+    "\\POO\\Registro"
   ],
-  "SelectedNode": "\\POO.sln",
+  "SelectedNode": "\\POO\\Interfaces\\PantallaInicial.py",
   "PreviewInSolutionExplorer": false
 }
