@@ -3,8 +3,8 @@ from keras.preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 
 longitud, altura = 150, 150
-modelo = './modelo/modelo.h5'
-pesos_modelo = './modelo/pesos.h5'
+modelo = 'Proyect/CNN desde cero/modelo/modelo.h5'
+pesos_modelo = 'Proyect/CNN desde cero/modelo/pesos.h5'
 cnn = load_model(modelo)
 cnn.load_weights(pesos_modelo)
 
@@ -16,10 +16,15 @@ def predict(file):
   result = array[0]
   answer = np.argmax(result)
   if answer == 0:
-    print("pred: Perro")
-  elif answer == 1:
     print("pred: Gato")
-  elif answer == 2:
+  elif answer == 1:
     print("pred: Gorila")
+  elif answer == 2:
+    print("pred: Leon")
+  elif answer == 3:
+    print("pred: Perro")
 
   return answer
+
+
+predict('Proyect\CNN desde cero\lion 02.jpg')
