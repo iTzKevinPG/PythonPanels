@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\POO",
-    "\\POO\\Reconocimiento"
+    "\\POO\\Covid",
+    "\\Proyect\\CNN desde cero\\data"
   ],
-  "SelectedNode": "\\POO\\Reconocimiento\\CancerOnlyRead.py",
+  "SelectedNode": "\\POO\\Covid\\Main.py",
   "PreviewInSolutionExplorer": false
 }

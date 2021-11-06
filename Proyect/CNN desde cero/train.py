@@ -11,8 +11,8 @@ import numpy as np
 
 K.clear_session()
 
-data_entrenamiento = './data/entrenamiento'
-data_validacion = './data/validacion'
+data_entrenamiento = 'Proyect/CNN desde cero/data/entrenamiento'
+data_validacion = 'Proyect/CNN desde cero/data/entrenamiento'
 
 """
 Parametros
@@ -28,7 +28,7 @@ filtrosConv2 = 64
 tamano_filtro1 = (3, 3)
 tamano_filtro2 = (2, 2)
 tamano_pool = (2, 2)
-clases = 3
+clases = 4
 lr = 0.0004
 
 
@@ -73,8 +73,7 @@ cnn.compile(loss='categorical_crossentropy',
             optimizer= 'adam',
             metrics=['accuracy'])
 
-TRAIN_STEPS_PER_EPOCH = np.ceil((999*0.9/batch_size)-1)
-VAL_STEPS_PER_EPOCH = np.ceil((2043*0.2/batch_size)-1)
+TRAIN_STEPS_PER_EPOCH = np.ceil((entrenamiento_generador.n*0.9/batch_size)-1)
 
 cnn.fit(
     entrenamiento_generador,
