@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\POO",
-    "\\POO\\Covid",
-    "\\Proyect\\CNN desde cero\\data"
+    "\\Proyect",
+    "\\Proyect\\CNN desde cero",
+    "\\Proyect\\CNN desde cero\\data",
+    "\\Proyect\\CNN desde cero\\data\\entrenamiento"
   ],
-  "SelectedNode": "\\POO\\Covid\\Main.py",
+  "SelectedNode": "\\Proyect\\CNN desde cero\\predict.py",
   "PreviewInSolutionExplorer": false
 }

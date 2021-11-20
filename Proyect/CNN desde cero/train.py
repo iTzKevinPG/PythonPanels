@@ -12,15 +12,14 @@ import numpy as np
 K.clear_session()
 
 data_entrenamiento = 'Proyect/CNN desde cero/data/entrenamiento'
-data_validacion = 'Proyect/CNN desde cero/data/entrenamiento'
+data_validacion = 'Proyect/CNN desde cero/data/validacion'
 
 """
 Parametros
 """
-epocas=20
+epocas=50
 longitud, altura = 150, 150
 batch_size = 32
-pasos = 1000
 validation_steps = 300
 filtrosConv3 = 16
 filtrosConv1 = 32
